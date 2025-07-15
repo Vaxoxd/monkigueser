@@ -1,0 +1,86 @@
+
+{
+  "name": "MońkiGuessr",
+  "short_name": "MońkiGuessr",
+  "description": "Najzajebistsza podróba Geoguessera! Graj solo lub walcz z znajomymi w multiplayer!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#ffd700",
+  "orientation": "any",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "favicon.png", 
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "favicon.png",
+      "sizes": "96x96", 
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "favicon.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["games", "entertainment", "education"],
+  "lang": "pl",
+  "screenshots": [
+    {
+      "src": "zdjecie.jpeg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "platform": "wide",
+      "label": "MońkiGuessr gameplay screenshot"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Graj Solo",
+      "short_name": "Solo",
+      "description": "Rozpocznij grę solo",
+      "url": "/?mode=solo",
+      "icons": [{ "src": "favicon.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Multiplayer",
+      "short_name": "PvP", 
+      "description": "Walcz z innymi graczami",
+      "url": "/?mode=multiplayer",
+      "icons": [{ "src": "favicon.png", "sizes": "96x96" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "display_override": ["window-controls-overlay", "standalone"],
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  }
+}
