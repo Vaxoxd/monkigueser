@@ -400,7 +400,6 @@ var randomLocations = [
   { lat: 50.0628077, lng: 19.8388003 },   // Polska - Kraków
   { lat: 49.8832635, lng: 19.4918946 },   // Polska - Nowy Targ
   { lat: 51.1089611, lng: 17.0334601 },   // Polska - Wrocław
-  { lat: 52.5430373, lng: 16.9482394 },   // Polska - Poznań
   { lat: 52.2534696, lng: 15.5182328 },   // Polska - Gorzów Wielkopolski
   { lat: 52.2100871, lng: 18.296856 },    // Polska - Turek
   { lat: 51.5316371, lng: 20.0081262 },   // Polska - Radom
